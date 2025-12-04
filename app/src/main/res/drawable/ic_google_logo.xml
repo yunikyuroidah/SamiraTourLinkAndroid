@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Google "G" Logo -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M21.35,11.1h-9.17v2.92h5.31c-0.23,1.36-0.95,2.51-2.03,3.27v2.71h3.27c1.91-1.76,3.01-4.36,3.01-7.43C21.74,11.99,21.63,11.54,21.35,11.1z"/>
+    <path
+        android:fillColor="#34A853"
+        android:pathData="M12.18,22c2.73,0,5.02-0.9,6.69-2.45l-3.27-2.71c-0.91,0.61-2.08,0.97-3.42,0.97c-2.63,0-4.86-1.78-5.65-4.18H3.18v2.77C4.83,19.9,8.22,22,12.18,22z"/>
+    <path
+        android:fillColor="#FBBC05"
+        android:pathData="M6.53,13.63c-0.21-0.61-0.33-1.27-0.33-1.95c0-0.68,0.12-1.34,0.33-1.95V6.96H3.18C2.43,8.41,2,10.13,2,11.95s0.43,3.54,1.18,4.99L6.53,13.63z"/>
+    <path
+        android:fillColor="#EA4335"
+        android:pathData="M12.18,4.77c1.48,0,2.79,0.51,3.83,1.51l2.86-2.86C17.2,1.87,14.91,1,12.18,1C8.22,1,4.83,3.1,3.18,6.96l3.35,2.77C7.32,6.55,9.55,4.77,12.18,4.77z"/>
+</vector>

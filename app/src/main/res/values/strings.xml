@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SamiraTravelMobile</string>
+    <string name="tambah_paket">Tambah Paket</string>
+    <string name="about_video_thumbnail">Video thumbnail for about Samira Travel</string>
+    <string name="main_content_area">Main content area</string>
+    <string name="leader_image">Image of the leader</string>
+    <string name="gallery_image_description">Image from gallery</string>
+    <string name="default_web_client_id">1:127746202147:android:27cc0e2c574cf03d39af96</string>
+    <string name="hero_image_desc">Image from hero</string>
+    <string name="app_logo">logo from hero</string>
+</resources>

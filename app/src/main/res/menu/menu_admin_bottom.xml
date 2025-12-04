@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_packages"
+        android:icon="@drawable/ic_admin_package"
+        android:title="Paket" />
+    <item
+        android:id="@+id/action_documentation"
+        android:icon="@drawable/ic_admin_documentation"
+        android:title="Dokumentasi" />
+    <item
+        android:id="@+id/action_leader"
+        android:icon="@drawable/ic_admin_leader"
+        android:title="Tour Leader" />
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_admin_profile"
+        android:title="Profil" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_admin_logout"
+        android:title="Keluar" />
+</menu>

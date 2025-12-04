@@ -1,0 +1,77 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="false"
+    app:cardPreventCornerOverlap="false"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:stateListAnimator="@null">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_soft">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <View
+                android:layout_width="32dp"
+                android:layout_height="4dp"
+                android:background="@drawable/bg_accent_bar"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dokumentasi"
+                android:textAllCaps="true"
+                android:textSize="11sp"
+                android:letterSpacing="0.1"
+                android:textColor="@color/samira_blue_dark"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgGallery"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/gallery_image_description"
+            android:background="@drawable/bg_image_mask"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/txtNamaGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Dokumentasi"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/samira_blue_dark"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtDeskripsiGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi singkat dokumentasi"
+            android:textSize="13sp"
+            android:textColor="@color/brand_text_secondary"
+            android:alpha="0.85" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

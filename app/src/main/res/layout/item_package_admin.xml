@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_card_shadow">
+
+    <!-- Nama Paket -->
+    <TextView
+        android:text="Nama Paket:"
+        android:textStyle="bold"
+        android:textColor="@color/brand_navy"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtNamaPaket"
+        android:text="Nama Paket"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/brand_navy"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Deskripsi -->
+    <TextView
+        android:text="Deskripsi:"
+        android:textStyle="bold"
+        android:textColor="@color/brand_navy"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtDeskripsiPaket"
+        android:text="Deskripsi paket..."
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Fasilitas -->
+    <TextView
+        android:text="Fasilitas:"
+        android:textStyle="bold"
+        android:textColor="@color/brand_navy"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtFasilitasPaket"
+        android:text="• fasilitas 1\n• fasilitas 2"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Fitur -->
+    <TextView
+        android:text="Features:"
+        android:textStyle="bold"
+        android:textColor="@color/brand_navy"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtFiturPaket"
+        android:text="• feature 1\n• feature 2"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Tombol -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:text="Edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/brand_blue"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:text="Hapus"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/brand_red"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

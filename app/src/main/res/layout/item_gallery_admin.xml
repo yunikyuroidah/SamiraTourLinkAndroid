@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_shadow"
+    android:layout_margin="6dp">
+
+    <ImageView
+        android:id="@+id/imgDokumentasi"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Gambar dokumentasi"
+        android:background="#EEE" />
+
+    <TextView
+        android:id="@+id/txtNamaGalleryAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Dokumentasi"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#222"/>
+
+    <TextView
+        android:id="@+id/txtDeskripsiGalleryAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi dokumentasi"
+        android:textColor="#555"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnEditGallery"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/btnHapusGallery"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Hapus"/>
+    </LinearLayout>
+</LinearLayout>

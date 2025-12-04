@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127746202147",
+    "project_id": "samira-travel-810df",
+    "storage_bucket": "samira-travel-810df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127746202147:android:27cc0e2c574cf03d39af96",
+        "android_client_info": {
+          "package_name": "com.example.samiratravelmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127746202147-2qfmabqb5vl14febb638pscplo95em9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_CEb9VoOx2LaYDiIf7Q2Q34T9Nqilwy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127746202147-2qfmabqb5vl14febb638pscplo95em9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

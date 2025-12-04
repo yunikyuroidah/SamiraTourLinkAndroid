@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_700">#009688</color>
+    <color name="brand_gold">#F5B400</color>
+    <color name="brand_navy">#0A2540</color>
+    <color name="brand_surface">#F4F6FB</color>
+    <color name="brand_text_primary">#111827</color>
+    <color name="brand_text_secondary">#4B5563</color>
+    <color name="brand_danger">#DC2626</color>
+    <color name="brand_success">#25D366</color>
+    <color name="brand_blue">#007AFF</color>
+    <color name="brand_red">#FF0000</color>
+    <color name="brand_dark">#1F2937</color>
+    <color name="gray_light">#E5E7EB</color>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+    <!-- Samira light-blue palette -->
+    <color name="samira_blue_50">#EAF6FF</color>
+    <color name="samira_blue_200">#BEE8FF</color>
+    <color name="samira_blue">#4DB0FF</color>
+    <color name="samira_blue_dark">#0077CC</color>
+    <color name="card_stroke_blue">#D7EFFF</color>
+    <color name="toast_success_bg">#1B9B6A</color>
+    <color name="toast_error_bg">#CC2E2E</color>
+    <color name="toast_info_bg">#2E3A4A</color>
+</resources>
