@@ -12,7 +12,7 @@ Aplikasi *mobile* ini berfungsi sebagai antarmuka pengguna untuk melihat paket w
 
 Proyek ini dibangun menggunakan teknologi standar Android:
 
-* **Bahasa Pemrograman:** Java (Berdasarkan struktur file yang terlihat).
+* **Bahasa Pemrograman:** Java.
 * **IDE:** Android Studio.
 * **Sistem Build:** Gradle.
 * **Arsitektur:** Menggunakan `Activity`, `Fragment`, dan `Adapter` standar Android.
