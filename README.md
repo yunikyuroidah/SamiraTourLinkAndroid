@@ -1,9 +1,9 @@
 ## 📝 Deskripsi Proyek
 
-Aplikasi *mobile* ini berfungsi sebagai antarmuka pengguna untuk melihat paket wisata, galeri, dan informasi *tour leader* yang disediakan oleh Samira Travel. Aplikasi ini juga mencakup fungsi *admin* sederhana untuk manajemen konten (seperti edit paket dan profil) melalui *activity* dan *fragment* yang terpisah.
+Aplikasi *mobile* ini berfungsi sebagai antarmuka pengguna untuk melihat paket umroh/haji, galeri, dan informasi *tour leader* yang disediakan oleh Samira Travel. Aplikasi ini juga mencakup fungsi *admin* sederhana untuk manajemen konten (seperti edit paket dan profil) melalui *activity* dan *halaman* yang terpisah.
 
 **Fitur Utama:**
-* **Tampilan Paket:** Menampilkan daftar paket wisata.
+* **Tampilan Paket:** Menampilkan daftar paket umroh/haji.
 * **Galeri Foto:** Menampilkan galeri perjalanan.
 * **Profil Leader:** Menampilkan daftar *tour leader*.
 * **Login & Edit Admin:** Aktivitas terpisah untuk login admin dan manajemen konten.
